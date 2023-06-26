@@ -1,0 +1,16 @@
+* {
+    outline: 1px solid red;
+}
+
+:root{
+    --preto-100: #464646;
+}
+
+.cabecera {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    
+}

@@ -1,23 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <header>
-            <nav>
 
-            </nav>
-        </header>
-        <main>
-            <section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <!--header Cabecera-->
+    <link rel="stylesheet" href="CSS/cabecera.css">
+    <!--div logo-->
+    <link rel="stylesheet" href="CSS/logo/logo.css">
+    <link rel="stylesheet" href="CSS/logo/logo-imagen.css">
+    <link rel="stylesheet" href="CSS/logo/logo-titulo.css">
+    <!--nav menu-->
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/menu/menu-lista.css">
+    <link rel="stylesheet" href="CSS/menu/menu-item.css">
+    <link rel="stylesheet" href="CSS/menu/menu-link.css">
+    <!--section presentacion-->
+    <link rel="stylesheet" href="CSS/presentacion.css">
+    <link rel="stylesheet" href="CSS/presentacion/presentacion-container.css">
+    <link rel="stylesheet" href="CSS/presentacion/presentacion-titulo.css">
+    <link rel="stylesheet" href="CSS/presentacion/presentacion-descripcion.css">
+    <link rel="stylesheet" href="CSS/presentacion/presentacion-lista.css">
+    <link rel="stylesheet" href="CSS/presentacion/presentacion-item.css">
+    <link rel="stylesheet" href="CSS/presentacion/presentacion-link.css">
+    <link rel="stylesheet" href="CSS/presentacion/presentacion-imagen.css">
 
-            </section>
-            <section>
-                
-            </section>
-        </main>
-    </body>
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="logo">
+            <img src="imagenes/logo.svg" alt="logo" class="logo__imagen">
+            <h3 class="logo__titulo">Joseph Santiago Leon</h3>
+        </div>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a href="#" class="menu__link">Sobre mi</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Hobbies</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Formacion</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Proyectos</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">josephsantiago231@gmail.com</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+
+        <section class="presentacion">
+            <div class="presentacion__container">
+                <h1 class="presentacion__titulo">Hola mi nombre es Joseph Santiago Leon y construyo paginas web</h1>
+                <p class="presentacion__descripcion">Soy formado en desarrollo de paginas web y aplicaciones de escritorio en java, actualmente estoy participando del proyecto Oracle ONE Alura Latam.</p>
+                <ul class="presentacion__lista">
+                    <li class="presentacion__item"><a href="" class="presentacion__link">Github <div class="presentacion__link--imagen"></div></a></li>
+                    <li class="presentacion__item"><a href="" class="presentacion__link">Linkedin <div class="presentacion__link--imagen"></div></a></li>
+                    <li class="presentacion__item"><a href="" class="presentacion__link">Instragram <div class="presentacion__link--imagen"></div></a></li>
+                    <li class="presentacion__item"><a href="" class="presentacion__link">Curriculo <div class="presentacion__link--imagen"></div></a></li>
+                </ul>
+            </div>
+            <div class="presentacion__imagen"></div>
+        </section>
+
+    </main>
+
+    <footer class="rodapie">
+
+    </footer>
+
 </html>

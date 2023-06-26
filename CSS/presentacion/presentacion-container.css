@@ -1,0 +1,6 @@
+.presentacion__container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 1rem - 35%);
+    justify-content: center;
+}

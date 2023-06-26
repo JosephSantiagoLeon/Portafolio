@@ -1,0 +1,12 @@
+.presentacion__imagen {
+    width: 35%;
+    /*padding-bottom: 35%;*/
+    position: relative;
+    top: 10%;
+    height: calc(60vh);
+    border-radius: 100%;
+    background-image: url('../../imagenes/fotoPerfil.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

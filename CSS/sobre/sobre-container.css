@@ -1,0 +1,11 @@
+.sobre__container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    flex-direction: column;
+}
+
+.container {
+    width: calc(100% - 1rem - 35%);
+}

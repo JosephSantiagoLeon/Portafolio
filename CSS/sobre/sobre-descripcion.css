@@ -1,0 +1,12 @@
+.sobre__descripcion {
+    color: var(--preto-100);
+    font-size: 1rem;
+    font-family: Raleway;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.sobre__descripcion  br {
+    content: "";
+    margin-bottom: 1em;
+}

@@ -1,0 +1,5 @@
+.sobre__imagen {
+    width: 8.75rem;
+    height: 3.25rem;
+    object-fit: cover;
+}

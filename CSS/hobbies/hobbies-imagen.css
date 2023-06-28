@@ -1,0 +1,6 @@
+.hobbies__imagen {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: .5rem;
+    object-fit: scale-down;
+}

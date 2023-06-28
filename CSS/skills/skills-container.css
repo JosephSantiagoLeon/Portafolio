@@ -1,0 +1,12 @@
+.skills__container {
+    display: flex;
+    width: 11rem;
+    height: 10.875rem;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: end;
+    margin: 1rem 1rem 1rem 0;
+    border-radius: 8px;
+    background: var(--preto-branco); 
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.4);
+}

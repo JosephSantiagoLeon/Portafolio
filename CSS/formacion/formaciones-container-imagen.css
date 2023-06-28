@@ -1,0 +1,11 @@
+.formaciones__container--imagen {
+    display: flex;
+    width: 23rem;
+    height: 17.875rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    object-fit: scale-down;
+    background: var(--preto-branco);
+}

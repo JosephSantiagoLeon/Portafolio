@@ -1,0 +1,4 @@
+.formaciones {
+    display: flex;
+    flex-direction: row;
+}

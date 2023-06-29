@@ -1,0 +1,10 @@
+.experiencia__titulo {
+    color: var(--preto-100);
+    text-align: center;
+    font-size: 2rem;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+}

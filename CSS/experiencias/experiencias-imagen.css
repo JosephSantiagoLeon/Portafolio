@@ -1,0 +1,19 @@
+.experiencias__imagen {
+    border-radius: 10px;
+    width: 65%;
+    height: 100%;
+    margin-right: 1rem;
+    border-radius: 10px;
+    border: 1px solid #308dff;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-5px) rotate(-5deg); }
+    80% { transform: translateX(5px) rotate(5deg); }
+    100% { transform: translateX(0); }
+  }
+  
+  .experiencias__imagen:hover {
+    animation: shake .3s normal;
+  }

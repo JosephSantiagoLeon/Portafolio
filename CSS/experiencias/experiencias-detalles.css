@@ -1,0 +1,10 @@
+.experiencias__detalles {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 65% - 1rem);
+    justify-content: center;
+}
+
+.experiencias__detalles .experiencias__descripcion {
+    margin: 0.5rem 0;
+}

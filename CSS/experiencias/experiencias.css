@@ -1,0 +1,16 @@
+.experiencias {
+    display: flex;
+    flex-direction: row;
+    column-count: 2;
+    column-width: auto;
+}
+
+.experiencias.experiencias__posicion--derecha {
+    flex-direction: row-reverse;
+    margin-top: 4rem;
+}
+
+.experiencias.experiencias__posicion--derecha .experiencias__imagen:first-child {
+    margin-right: 0;
+    margin-left: 1rem;
+}

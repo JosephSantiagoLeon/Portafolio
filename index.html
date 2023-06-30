@@ -65,6 +65,19 @@
     <link rel="stylesheet" href="CSS/experiencias/experiencias-descripcion.css">
     <link rel="stylesheet" href="CSS/experiencias/experiencias-botones.css">
     <link rel="stylesheet" href="CSS/experiencias/experiencias-boton.css">
+    <!--seccion contacto-->
+    <link rel="stylesheet" href="CSS/contacto.css">
+    <link rel="stylesheet" href="CSS/contacto/contacto-container.css">
+    <link rel="stylesheet" href="CSS/contacto/contacto-imagen.css">
+    <link rel="stylesheet" href="CSS/contacto/contacto-detalles.css">
+    <link rel="stylesheet" href="CSS/contacto/contacto-titulo.css">
+    <link rel="stylesheet" href="CSS/contacto/contacto-descripcion.css">
+    <link rel="stylesheet" href="CSS/contacto/contacto-formulario.css">
+    <link rel="stylesheet" href="CSS/contacto/contacto-input.css">
+    <link rel="stylesheet" href="CSS/contacto/contacto-label.css">
+    <link rel="stylesheet" href="CSS/contacto/contacto-boton.css">
+    <!--footer-->
+    <link rel="stylesheet" href="CSS/rodapie.css">
 
 </head>
 
@@ -76,12 +89,12 @@
         </div>
         <nav class="menu">
             <ul class="menu__lista">
-                <li class="menu__item"><a href="#" class="menu__link">Sobre mi</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Hobbies</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Formacion</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Proyectos</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">josephsantiago231@gmail.com</a></li>
+                <li class="menu__item"><a href="#sobre" class="menu__link">Sobre mi</a></li>
+                <li class="menu__item"><a href="#skill" class="menu__link">Skills</a></li>
+                <li class="menu__item"><a href="#hobbie" class="menu__link">Hobbies</a></li>
+                <li class="menu__item"><a href="#formacion" class="menu__link">Formacion</a></li>
+                <li class="menu__item"><a href="#experiencia" class="menu__link">Proyectos</a></li>
+                <li class="menu__item"><a href="#contacto" class="menu__link">josephsantiago231@gmail.com</a></li>
             </ul>
         </nav>
     </header>
@@ -102,7 +115,7 @@
             <div class="presentacion__imagen"></div>
         </section>
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="sobre__container">
                 <h1 class="sobre__titulo container">Sobre mi</h1>
                 <p class="sobre__descripcion container">Soy ingeniero en computación, autodidacta, apasionado por los videojuegos y la filosofía. Me gusta el desarrollo de paginas web, tanto la parte frontend como backend, el lenguaje que mas ocupo es Java (para aplicaciones de escritorio), y JavasScript para paginas web.<br>Considero que la vida se resume en la siguiente frase: "Que curioso es el ser humano: nacer no pide, vivir no sabe y morir no quiere".</p>
@@ -110,7 +123,7 @@
             </div>
         </section>
 
-        <section class="skill">
+        <section class="skill" id="skill">
             <h1 class="skills__titulo">Skills</h1>
             <div class="skills">
                 <div class="skills__container">
@@ -141,7 +154,7 @@
             </div>
         </section>
 
-        <section class="hobbie">
+        <section class="hobbie" id="hobbie">
             <h1 class="hobbie__titulo">Hobbies</h1>
             <div class="hobbies">
                 <div class="hobbies__container">
@@ -171,7 +184,7 @@
             </div>
         </section>
 
-        <section class="formacion">
+        <section class="formacion" id="formacion">
             <div class="formacion__container">
                 <h1 class="formacion__container--titulo">Formación Académica</h1>
                 <div class="formaciones">
@@ -194,7 +207,7 @@
             </div>
         </section>
         
-        <section class="experiencia">
+        <section class="experiencia" id="experiencia">
             <h1 class="experiencia__titulo">Experiencia Profesional</h1>
             <div class="experiencias experiencias__posicion--izquierda">
                 <img src="imagenes/Encriptador de Texto.png" alt="Imagen Pagina Encriptador" class="experiencias__imagen">
@@ -218,10 +231,31 @@
                 </div>
         </section>
 
+        <section class="contacto" id="contacto">
+            <div class="contacto__container">
+                <div class="contacto__imagen"></div>
+                <div class="contacto__detalles">
+                    <h1 class="contacto__titulo">Contacto</h1>
+                    <p class="contacto__descripcion">¿Quieres contactarme?<br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                    <form class="contacto__formulario">
+                        
+                        <input class="contacto__input nombre" id="nombre" type="text"  required>
+                        <label for="nombre" class="contacto__label nombre">Nombre</label>
+                        <input class="contacto__input email" id="email" type="email" required>
+                        <label for="email" class="contacto__label email">E-mail</label>
+                        <input class="contacto__input asunto" id="asunto" type="text" required>
+                        <label for="asunto" class="contacto__label asunto">Asunto</label>
+                        <textarea  rows="4" id="mensaje" class="contacto__input txtarea--mensaje" required></textarea>
+                        <label for="mensaje" class="contacto__label mensaje">Mensaje</label>
+                        <button class="contacto__boton">Enviar mensaje</button></form>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="rodapie">
-        
+        <p class="rodapie__descripcion">Desarrollado por Joseph Santiago Leon<br>2023</p>
     </footer>
 
 </html>

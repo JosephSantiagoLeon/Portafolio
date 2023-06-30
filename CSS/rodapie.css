@@ -1,0 +1,8 @@
+.rodapie {
+    background: var(--preto-branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    text-align: center;
+}

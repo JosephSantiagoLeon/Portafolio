@@ -1,0 +1,17 @@
+.contacto__boton {
+    display: flex;
+    padding: 0.625rem;
+    width: 9rem;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background: var(--azul-100);
+    color: var(--preto-branco); 
+    transition: all 0.4s ease-in-out;
+}
+
+.contacto__boton:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+}

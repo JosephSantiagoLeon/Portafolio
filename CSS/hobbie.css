@@ -1,5 +1,6 @@
 .hobbie {
     margin: 0 auto;
     width: 85%;
+    padding-top: calc(5.5rem / 2);
     padding-bottom: 5.5rem;
 }

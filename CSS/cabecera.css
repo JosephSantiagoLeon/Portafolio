@@ -9,6 +9,10 @@
     --azul-100: #2A7AE4;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background: #EDEDED;
 }

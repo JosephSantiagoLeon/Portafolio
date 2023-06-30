@@ -4,3 +4,9 @@
     width: 100%;
     justify-content: space-between;
 }
+
+@media screen and (max-width:768px) {
+    .menu__lista .menu__item:not(:last-child) {
+        display: none;
+      }
+}

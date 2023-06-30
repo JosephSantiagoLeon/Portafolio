@@ -3,3 +3,10 @@
     margin: 0 auto;
     padding: 5.12rem 0;
 }
+
+@media screen and (max-width: 768px) {
+    .formacion__container {
+        width: auto;
+        padding: 2rem;
+    }
+}

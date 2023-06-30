@@ -9,3 +9,14 @@
 .container {
     width: calc(100% - 1rem - 35%);
 }
+
+@media screen and (max-width: 768px) {
+    .sobre__container {
+        width: auto;
+        margin: 2rem;
+    }
+
+    .container {
+        width: auto;
+    }
+}

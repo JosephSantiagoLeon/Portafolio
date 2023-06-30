@@ -1,12 +1,23 @@
 .sobre__descripcion {
     color: var(--preto-100);
     font-size: 1rem;
-    font-family: Raleway;
+    font-family: Raleway;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     margin: 1rem 0;
     text-align: justify;
 }
 
-.sobre__descripcion  br {
+.sobre__descripcion br {
     content: "";
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .sobre__descripcion {
+        font-size: 0.875rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+    }
 }

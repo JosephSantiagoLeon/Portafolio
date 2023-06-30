@@ -17,3 +17,10 @@
   .experiencias__imagen:hover {
     animation: shake .3s normal;
   }
+
+  @media screen and (max-width:768px) {
+    .experiencias__imagen {
+      width: 100%;
+      height: 20rem; ;
+    }
+  }

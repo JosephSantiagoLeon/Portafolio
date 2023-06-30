@@ -8,3 +8,10 @@
     line-height: normal;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width:768px) {
+    .experiencia__titulo {
+        font-size: 1.375rem;
+        margin-bottom: 1rem;
+    }
+}

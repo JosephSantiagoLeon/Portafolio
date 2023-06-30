@@ -8,3 +8,9 @@
 .experiencias__detalles .experiencias__descripcion {
     margin: 0.5rem 0;
 }
+
+@media screen and (max-width:768px) {
+    .experiencias__detalles {
+        width: auto;
+    }
+}

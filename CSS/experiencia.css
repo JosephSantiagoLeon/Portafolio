@@ -3,3 +3,11 @@
     margin: 0 auto;
     padding: 2rem 0;
 }
+
+@media screen and (max-width: 768px) {
+    .experiencia {
+        width: auto;
+        margin: 2rem;
+        padding: 0;
+    }
+}

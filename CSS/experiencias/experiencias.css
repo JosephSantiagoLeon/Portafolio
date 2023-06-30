@@ -14,3 +14,16 @@
     margin-right: 0;
     margin-left: 1rem;
 }
+
+@media screen and (max-width:768px) {
+    .experiencias {
+        flex-direction: column;
+    }
+
+    .experiencias.experiencias__posicion--derecha {
+        flex-direction: column;
+    }
+    .experiencias.experiencias__posicion--derecha .experiencias__imagen:first-child {
+        margin: initial;
+    }
+}

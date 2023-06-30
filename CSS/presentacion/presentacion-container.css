@@ -4,3 +4,11 @@
     width: calc(100% - 1rem - 35%);
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .presentacion__container {
+        width: calc(100% - 2rem - 20%);
+        padding-right: 4rem;
+        box-sizing: border-box;
+    }
+}

@@ -6,3 +6,9 @@
 .skills .skills__container:last-child {
     margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .skills {
+        flex-wrap: wrap;
+    }
+}

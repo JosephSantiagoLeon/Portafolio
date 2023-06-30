@@ -12,7 +12,13 @@
 }
 
 .formaciones__container--imagen:hover {
-    border: inset .5rem  var(--azul-100);
+    border: inset .5rem var(--azul-100);
     transform: scale(0.9);
     border-radius: 50%;
+}
+
+@media screen and (max-width:768px) {
+    .formaciones__container--imagen {
+        height: 7.375rem;
+    }
 }

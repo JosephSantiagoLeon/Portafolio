@@ -5,3 +5,9 @@
     margin-right: 1rem;
     background-position: center;
 }
+
+@media screen and (max-width: 768px) {
+    .contacto__imagen {
+        display: none;
+    }
+}

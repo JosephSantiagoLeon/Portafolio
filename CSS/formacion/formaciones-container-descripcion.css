@@ -3,4 +3,12 @@
     font-size: 1rem;
     font-family: Raleway;
     font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .formaciones__container--descripcion {
+        font-size: 0.875rem;
+    }
 }

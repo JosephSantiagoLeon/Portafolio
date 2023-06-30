@@ -10,3 +10,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media screen and (max-width: 768px) {
+    .presentacion__imagen {
+        width: 20%;
+        height: 9.125rem;
+    }
+}

@@ -37,3 +37,9 @@
     background: white;
     border-radius: 0.625rem;
 }
+
+@media screen and (max-width:768px) {
+    .experiencias__boton {
+        font-size: 0.875rem; 
+    }
+}

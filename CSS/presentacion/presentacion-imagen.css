@@ -1,5 +1,11 @@
-.presentacion__imagen {
+.presentacion__imagen--container {
     width: 35%;
+    display: flex;
+
+}
+
+.presentacion__imagen {
+    width: 100%;
     /*padding-bottom: 35%;*/
     position: relative;
     top: 10%;
@@ -15,5 +21,18 @@
     .presentacion__imagen {
         width: 20%;
         height: 9.125rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .presentacion__imagen--container {
+        width: 100%;
+        order: -1;
+    }
+
+    .presentacion__imagen {
+        height: 6.125rem;
+        width: 6.125rem;
+        background-position: left center;
     }
 }

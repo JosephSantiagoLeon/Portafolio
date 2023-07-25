@@ -12,3 +12,10 @@
         box-sizing: border-box;
     }
 }
+
+@media screen and (max-width:360px) {
+    .presentacion__container {
+        padding: 0;
+        width: 100%;
+    }
+}

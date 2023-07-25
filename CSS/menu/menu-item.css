@@ -2,3 +2,13 @@
     font-weight: 700;
 }
 
+@media screen and (max-width: 360px) {
+    .menu__item:last-child .menu__link {
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

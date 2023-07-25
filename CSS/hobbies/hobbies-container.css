@@ -17,3 +17,11 @@
     border: solid 1px 1px 0 1px #308dff;
     box-shadow: 0 0 4px 4px rgb(48, 141, 255, 0.4);
 }
+
+@media screen and (max-width: 360px) {
+    .hobbies__container {
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+}

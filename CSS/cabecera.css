@@ -2,7 +2,7 @@
     outline: 1px solid red;
 }
 
-:root{
+:root {
     --preto-100: #464646;
     --azul-10: #EAF2FD;
     --preto-branco: #FFF;
@@ -14,7 +14,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background: #EDEDED;
 }
 
@@ -24,12 +24,19 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 2rem auto;
-    
+
 }
 
 @media screen and (max-width:768px) {
     .cabecera {
         width: auto;
         margin: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .cabecera {
+        width: auto;
+        margin: 1rem;
     }
 }

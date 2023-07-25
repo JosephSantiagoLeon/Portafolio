@@ -12,3 +12,9 @@
         font-size: 0.5rem;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .experiencias__descripcion {
+        font-size: 0.875rem;
+    }
+}

@@ -16,3 +16,11 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width:360px) {
+    .presentacion {
+        width: auto;
+        margin: 1rem;
+        flex-direction: column;
+    }
+}

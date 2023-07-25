@@ -7,3 +7,9 @@
 .formaciones .formaciones__container:last-child {
     margin: 0;
 }
+
+@media screen and (max-width:360px){
+    .formaciones {
+        flex-direction: column;
+    }
+}

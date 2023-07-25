@@ -24,6 +24,7 @@
 .experiencias__boton.experiencias__boton--demo {
     background: var(--azul-100);
     color: var(--preto-branco);
+    border: 1px solid;
 }
 
 .experiencias__boton.experiencias__boton--repositorio:hover {

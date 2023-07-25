@@ -73,6 +73,7 @@
     <link rel="stylesheet" href="CSS/contacto/contacto-titulo.css">
     <link rel="stylesheet" href="CSS/contacto/contacto-descripcion.css">
     <link rel="stylesheet" href="CSS/contacto/contacto-formulario.css">
+    <link rel="stylesheet" href="CSS/contacto/contacto-input-container.css">
     <link rel="stylesheet" href="CSS/contacto/contacto-input.css">
     <link rel="stylesheet" href="CSS/contacto/contacto-label.css">
     <link rel="stylesheet" href="CSS/contacto/contacto-boton.css">
@@ -238,15 +239,23 @@
                     <h1 class="contacto__titulo">Contacto</h1>
                     <p class="contacto__descripcion">¿Quieres contactarme?<br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                     <form class="contacto__formulario">
-                        
-                        <input class="contacto__input nombre" id="nombre" type="text"  required>
-                        <label for="nombre" class="contacto__label nombre">Nombre</label>
-                        <input class="contacto__input email" id="email" type="email" required>
-                        <label for="email" class="contacto__label email">E-mail</label>
-                        <input class="contacto__input asunto" id="asunto" type="text" required>
-                        <label for="asunto" class="contacto__label asunto">Asunto</label>
-                        <textarea  rows="4" id="mensaje" class="contacto__input txtarea--mensaje" required></textarea>
-                        <label for="mensaje" class="contacto__label mensaje">Mensaje</label>
+                        <div class="contacto__input--container">
+                            <input class="contacto__input nombre" id="nombre" type="text"  placeholder="Nombre" required>
+                            <label for="nombre" class="contacto__label nombre">Nombre</label>
+                        </div>
+                        <div class="contacto__input--container">
+                            <input class="contacto__input email" id="email" type="email" placeholder="Email" required>
+                            <label for="email" class="contacto__label email">E-mail</label>
+                        </div>
+                        <div class="contacto__input--container">
+                            <input class="contacto__input asunto" id="asunto" type="text" placeholder="Email" required>
+                            <label for="asunto" class="contacto__label asunto">Asunto</label>
+                        </div>
+                        <div class="contacto__input--container mensaje">
+                            <textarea  rows="4" id="mensaje" class="contacto__input txtarea--mensaje" placeholder="Mensaje" required></textarea>
+                            <label for="mensaje" class="contacto__label mensaje">Mensaje</label>
+                        </div>
+
                         <button class="contacto__boton">Enviar mensaje</button></form>
                 </div>
             </div>

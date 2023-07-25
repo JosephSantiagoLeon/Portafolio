@@ -1,19 +1,26 @@
 .contacto__input {
-    height: 3.5rem;
+    height: 100%;
+    width: 100%;
     font-size: 1rem;
     font-family: Raleway;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem;
-    margin-top: 2rem;
+    margin-top: 0;
     padding: 0rem 0.75rem;
     border-radius: 0.25rem;
+    border: 0;
+    border-bottom: 1px solid var(--preto-30);
+}
+
+.contacto__input::placeholder {
+    visibility: hidden;
+    color: #00000000;
 }
 
 .contacto__input:focus {
-    border: 0;
     outline: none;
-    border-bottom: 0.125rem solid var(--azul-100);
+    border-bottom: 1px solid var(--azul-100);
 }
 
 .contacto__input.txtarea--mensaje {
@@ -21,48 +28,12 @@
     height: auto;
     padding-top: 1rem;
     resize: none;
+    height: 7rem;
 }
 
-.contacto__input.nombre:focus~.contacto__label.nombre,
-.contacto__input.nombre:valid~.contacto__label.nombre {
-    color: var(--azul-100);
-    font-size: 0.75rem;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1rem;
-    top: 2rem;
-}
-
-.contacto__input.email:focus~.contacto__label.email,
-.contacto__input.email:valid~.contacto__label.email {
-    color: var(--azul-100);
-    font-size: 0.75rem;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1rem;
-    top: 8rem;
-}
-
-.contacto__input.asunto:focus~.contacto__label.asunto,
-.contacto__input.asunto:valid~.contacto__label.asunto {
-    color: var(--azul-100);
-    font-size: 0.75rem;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1rem;
-    top: 13.8rem;
-}
-
-.contacto__input.txtarea--mensaje:focus~.contacto__label.mensaje,
-.contacto__input.txtarea--mensaje:valid~.contacto__label.mensaje {
-    color: var(--azul-100);
-    font-size: 0.75rem;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1rem;
-    top: 19.4rem;
+.contacto__input:not(:placeholder-shown)+.contacto__label,
+.contacto__input:focus+.contacto__label {
+    font-size: 0.875rem;
+    top: 0;
+    transition: all 0.25s;
 }

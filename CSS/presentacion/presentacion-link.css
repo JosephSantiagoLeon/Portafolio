@@ -22,7 +22,7 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:428px) {
     .presentacion__link {
         font-size: 0.875rem;
         font-weight: 600;

@@ -5,7 +5,7 @@
     /*box-sizing: border-box;*/
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:428px) {
     .formaciones__container {
         width: auto;
         margin: 0;

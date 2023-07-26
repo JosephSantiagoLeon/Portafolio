@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:428px) {
   .experiencias__imagen {
     width: 100%;
     height: auto;

@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:428px) {
     .formacion__container {
         width: auto;
         margin: 0;

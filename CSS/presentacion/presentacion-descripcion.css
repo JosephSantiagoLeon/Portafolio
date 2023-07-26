@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:428px) {
     .presentacion__descripcion {
         font-size: 0.875rem; 
     }

@@ -7,6 +7,8 @@
     height: calc(100vh - 9.9rem );
 }
 
+
+
 @media screen and (max-width: 768px) {
     .presentacion {
         width: auto;
@@ -22,5 +24,11 @@
         width: auto;
         margin: 1rem;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .presentacion {
+        height: auto;
     }
 }

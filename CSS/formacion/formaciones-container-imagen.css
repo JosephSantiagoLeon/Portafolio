@@ -11,14 +11,18 @@
     transition: all 0.4s ease-in-out;
 }
 
-.formaciones__container--imagen:hover {
-    border: inset .5rem var(--azul-100);
-    transform: scale(0.9);
-    border-radius: 50%;
-}
+
 
 @media screen and (max-width:768px) {
     .formaciones__container--imagen {
         height: 7.375rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .formaciones__container--imagen:hover {
+        border: inset .5rem var(--azul-100);
+        transform: scale(0.9);
+        border-radius: 50%;
     }
 }
